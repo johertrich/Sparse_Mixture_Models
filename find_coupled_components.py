@@ -68,8 +68,6 @@ def test_uniform(samps,alphas_init,mus_init,Sigmas_init,us,my_k,batch_size=1000,
             kappa=kappas[k]
             u=us[k]
             u=tf.constant(u,dtype=tf.int64)
-            if len(u)==0:
-                log_fun_vals.append(tf.ones(n_inp,dtype=tf.float64))
             inputs_u=tf.gather(inputs,u,axis=1)
             cent_inp=inputs_u-tf.tile(tf.expand_dims(mu,0),(n_inp,1))
             bessel_kappa_log=tf.math.log(tf.math.bessel_i0(kappa))
