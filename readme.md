@@ -1,9 +1,9 @@
-# Sparse Mixture Models inspired by ANOVA
+# Sparse Mixture Models inspired by ANOVA Decompositions
 
 This repository contains the numerical examples of the paper [1]. Please cite the paper, if you use this code.
 
 It is available at  
-https://arxiv.org/abs/2105.14893
+https://doi.org/10.1553/etna_vol55s142
 
 For questions and bug reports, please contact Johannes Hertrich (j.hertrich(at)math.tu-berlin.de).
 
@@ -20,6 +20,6 @@ Note that the code is highly experimental, far from optimized and only sparsely 
 
 ## Reference
 
-[1] J. Hertrich, F. A. Ba and G. Steidl (2021).  
+[1] J. Hertrich, F. A. Ba and G. Steidl (2022).  
 Sparse Mixture Models inspired by ANOVA.  
-Arxiv preprint arXiv:2105.14893
+Electronic Transactions on Numerical Analysis, vol. 55, pp. 142-168.

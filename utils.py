@@ -1,8 +1,8 @@
 # This code belongs to the paper
 #
-# J. Hertrich, F. A. Ba and G. Steidl (2021).
-# Sparse Mixture Models inspired by ANOVA.
-# Arxiv preprint arXiv:2105.14893
+# J. Hertrich, F. A. Ba and G. Steidl (2022).
+# Sparse Mixture Models inspired by ANOVA Decompositions.
+# Electronic Transactions on Numerical Analysis, vol. 55, pp. 142-168.
 #
 # Please cite the paper if you use the code.
 #
